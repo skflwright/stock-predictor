@@ -55,7 +55,7 @@ def convert(prediction_list):
         output[date] = data["trend"]
     return output
 
-
+"""
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Predict')
     parser.add_argument('--ticker', type=str, default='MSFT', help='Stock Ticker')
@@ -66,4 +66,5 @@ if __name__ == "__main__":
     prediction_list = predict(ticker=args.ticker, days=args.days)
     output = convert(prediction_list)
     print(output)
+    """
    
