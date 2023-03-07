@@ -437,12 +437,12 @@ Let's just output the forecast in JSON. Comment out the following lines in `pred
 11. Now find the Public IPv4 address for your instance, e.g., 35.90.247.255, and run the following in another shell on your local machine:
 
     ```
-    curl \
-    --header "Content-Type: application/json" \
-    --request POST \
-    --data '{"ticker":"MSFT", "days":7}' \
-    http://35.90.247.255:8000/predict
-    ```
+  curl \
+--header "Content-Type: application/json" \
+--request POST \
+--data '{"ticker":"MSFT", "days":7}' \
+http://52.90.90.237:8000/predict
+    ```  # my local link above
 
     You shall see the predictions 🎉🎉🎉
 
