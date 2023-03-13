@@ -4,4 +4,3 @@ pandas
 yfinance
 prophet
 joblib
-argparse
